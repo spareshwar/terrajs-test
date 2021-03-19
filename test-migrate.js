@@ -16,7 +16,7 @@ const wallet = terra.wallet(mk);
 
 console.log("wallet key is",wallet.key);
 
-// Construct pool contract
+// Construct migration call parameters
 const migrate_contract = new MsgMigrateContract(
     'terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v',
     'terra1nnrsydp4qa3m7sw89gqz9caa089sjyrygjh49k',
